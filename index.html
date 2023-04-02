@@ -8,28 +8,28 @@
     <link rel="stylesheet" href="assets/css/external.css">
 </head>
 <body>
-    <header>
+    <header id="header">
         <!-- Welcome Note -->
         <h1><b>Welcome to my first website.</b></h1>
         <!-- Logo -->
-        <div>
-            <a href="assets/media/images/logo.png">Logo</a>
+        <div class="logo">
+            <a href="assets/media/images/logo.png" target="_blank">Logo</a>
         </div>
         <!-- Menu Items Here -->
-        <nav>
+        <nav class="navbar">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Gallery</a></li>
-                <li><a href="#">Testimonials</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Thank You</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="assets/templates/about.html" target="_blank">About</a></li>
+                <li><a href="assets/templates/services.html" target="_blank">Services</a></li>
+                <li><a href="assets/templates/gallery.html" target="_blank">Gallery</a></li>
+                <li><a href="assets/templates/testimonial.html" target="_blank">Testimonials</a></li>
+                <li><a href="assets/templates/contact.html" target="_blank">Contact</a></li>
+                <li><a href="assets/templates/thankyou.html" target="_blank">Thank You</a></li>
             </ul>
         </nav>
         <!-- Menu Items Ends Here -->
         <!-- Banner Part Starts Here -->
-        <div>
+        <div class="hero">
             <img src="assets/media/images/bg.jpg" alt="Banner Image">
         </div>
         <!-- Banner Part Ends Here -->
@@ -37,8 +37,8 @@
     <!-- Main Part Starts Here -->
     <main>
         <!-- About Part Starts -->
-        <section>
-            <div>
+        <section id="about">
+            <div class="about">
                 <h2>About Us</h2>
                 <p>Hello to all. This is my first website. I am a web designer & developer. I am skillfull designer. Want to create your own website? Then, contact me.</p> <br>
                 <p>To know more about me<a href="assets/templates/about.html" target="_blank">visit here</a></p>
@@ -46,35 +46,35 @@
         </section>
         <!-- About Part Ends -->
         <!-- Services Part Starts Here -->
-        <section>
-            <div>
+        <section id="services">
+            <div class="services">
                 <h2>Our Services</h2>
                 <p>If you trust us to take our services, then hurry up.</p> <br>
-                <p>To get our services<a href="assets/templates/services.html">Click here</a></p>
+                <p>To get our services<a href="assets/templates/services.html" target="_blank">Click here</a></p>
             </div>
         </section>
         <!-- Services Part Ends Here -->
         <!-- Gallery Part Starts Here -->
-        <section>
-            <div>
+        <section id="gallery">
+            <div class="gallery">
                 <h2>Gallery</h2>
             <p>We are a renowned company & working since 2012. We have many successes.</p> <br>
-            <p>To know more about our successes<a href="assets/templates/gallery.html">Visit our gallery</a></p>
+            <p>To know more about our successes<a href="assets/templates/gallery.html" target="_blank">Visit our gallery</a></p>
             </div>
         </section>
         <!-- Gallery Part Ends Here -->
         <!-- Testimonial Part Starts Here -->
-        <section>
-            <div>
+        <section id="review">
+            <div class="review">
                 <h2>Reviews</h2>
                 <p>Please, give us your feedback</p> <br>
-                <p>Please,<a href="assets/templates/testimonial.html">Visit our testimonials</a></p>
+                <p>Please,<a href="assets/templates/testimonial.html" target="_blank">Visit our testimonials</a></p>
             </div>
         </section>
         <!-- Testimonial Part Ends Here -->
         <!-- Contact Part Starts Here -->
-        <section>
-            <div>
+        <section id="contact">
+            <div class="contact">
                 <h2>Contact Us</h2> <br>
                 <p>Contact us to grow your business.</p> <br>
                 <form action="assets/templates/contact.html">
@@ -91,14 +91,14 @@
                     </fieldset>
                 </form> <br>
             </div>
-            <div>
-                <p>Contact us<a href="assets/templates/contact.html">Click Here</a></p>
+            <div class="con-us">
+                <p>Contact us<a href="assets/templates/contact.html" target="_blank">Click Here</a></p>
             </div>
         </section>
         <!-- Contact Part Ends Here -->
         <!-- Thanks Part Starts Here -->
-        <section>
-            <div>
+        <section id="thankyou">
+            <div class="thankyou">
                 <h2>Thank You for your nice cooperation</h2>
                 <form action="assets/templates/thankyou.html">
                     <fieldset>
@@ -120,8 +120,8 @@
             </div>
         </section>
     </main>
-    <footer>
-        <div>
+    <footer id="footer">
+        <div class="footer">
             <h6>About us</h6>
             <ul>
                 <li><a href="assets/templates/services.html">HTML</a></li>
@@ -131,7 +131,7 @@
                 <li><a href="assets/templates/services.html">Responsive Design</a></li>
             </ul>
         </div> <br><br>
-        <div>
+        <div class="footer-widget">
             <p>Copyright &copy;- All rights reserved by <span>James Bipul Gomes</span></p>
         </div>
     </footer>
